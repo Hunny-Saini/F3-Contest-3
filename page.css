@@ -1,0 +1,50 @@
+/* profile page */
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+nav{
+    background-color: #000;
+    color: white;
+    /* height: 3rem; */
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.links-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.links-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile-container{
+    background-color: #000;
+    height: 90.7vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+.profile-container h1{
+    font-weight: 400;
+}
+
+.logout-btn{
+    max-width: 10vw;
+    padding: 0.5rem 2rem;
+    border: none;
+    cursor: pointer;
+}

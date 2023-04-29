@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup Page</title>
+</head>
+<body>
+    <nav>
+        <p>Header</p>
+        <div class="links-container">
+            <div class="signup"><a href="index.html">Signup</a></div>
+            <div class="profile"><a href="profile.html">Profile</a></div>
+        </div>
+    </nav>
+    <main id="signup-page">
+        <div class="signup-container">
+            <h2>Signup</h2>
+            <form>
+                <input type="text" placeholder="Full Name" id="user-name">
+                <input type="email" placeholder="Email" id="user-email">
+                <input type="password" placeholder="Password" id="user-password">
+                <input type="password" placeholder="Confirm Password" id="user-cpassword">
+            </form>
+            <div class="messages">
+                <span class="error">Error : All the fields are mandatory</span>
+                <span class="sucsess">Successfully Signed Up!</span>
+                <span class="pass-mismatch">Password mismatch</span>
+            </div>
+            <button class="btn" id="signup-btn">Signup</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
